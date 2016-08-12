@@ -1,0 +1,1 @@
+mpicc -Ofast -ffast-math -funroll-loops -Wall sort.c -o sort && mpirun -np 32 ./sort
